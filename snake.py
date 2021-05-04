@@ -19,8 +19,8 @@ lista_cobra = [[x, y]]
 delta_x = 0
 delta_y = 0
 
-x_comida = round(random.randrange(0, 600 - 2 * d) / 20) * 20
-y_comida = round(random.randrange(0, 600 - 2 * d) / 20) * 20
+x_comida = round(random.randrange(0, 600 - d) / 20) * 20
+y_comida = round(random.randrange(0, 600 - d) / 20) * 20
 
 pygame.init()
 fonte = pygame.font.SysFont("hack", 35)
